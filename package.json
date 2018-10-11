@@ -1,0 +1,67 @@
+{
+  "name": "test-workshop-2018",
+  "version": "0.1.0",
+  "description": "Training repo for workshop 14.09.2018",
+  "main": "dist/index.js",
+  "bin": {
+    "geo-by-ip": "bin/geo-by-ip.js",
+    "get-weather": "bin/weather.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grigori-gru/test-workshop-2018.git"
+  },
+  "keywords": [
+    "test",
+    "workshop",
+    "node"
+  ],
+  "author": "Grigory Grudinin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grigori-gru/test-workshop-2018/issues"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/grigori-gru/test-workshop-2018#readme",
+  "dependencies": {
+    "debug": "^4.0.1",
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "sinon": "^6.3.3",
+    "proxyquire": "^2.1.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.2.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "flow-bin": "^0.80",
+    "flow-typed": "^2.5.1",
+    "gulp-babel": "^8.0.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "nock": "^10.0.0"
+  }
+}
