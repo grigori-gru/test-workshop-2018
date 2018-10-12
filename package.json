@@ -1,6 +1,6 @@
 {
-  "name": "test-workshop-2018",
-  "version": "0.1.0",
+  "name": "test-workshop-pkg",
+  "version": "1.0.0",
   "description": "Training repo for workshop 14.09.2018",
   "main": "dist/index.js",
   "bin": {
