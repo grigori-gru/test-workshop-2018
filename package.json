@@ -1,10 +1,10 @@
 {
   "name": "test-workshop-pkg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Training repo for workshop 14.09.2018",
   "main": "dist/index.js",
   "bin": {
-    "get-weather": "dist/bin/weather.js"
+    "get-weather": "dist/bin/get-weather.js"
   },
   "engines": {
     "node": ">=8"
