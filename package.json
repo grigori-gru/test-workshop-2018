@@ -1,11 +1,10 @@
 {
   "name": "test-workshop-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Training repo for workshop 14.09.2018",
   "main": "dist/index.js",
   "bin": {
-    "geo-by-ip": "bin/geo-by-ip.js",
-    "get-weather": "bin/weather.js"
+    "get-weather": "dist/bin/weather.js"
   },
   "engines": {
     "node": ">=8"
@@ -38,6 +37,9 @@
   },
   "homepage": "https://github.com/grigori-gru/test-workshop-2018#readme",
   "dependencies": {
+    "commander": "^2.19.0",
+    "axios": "^0.18.0",
+    "fast-memoize": "^2.5.1",
     "debug": "^4.0.1",
     "gulp": "^4.0.0"
   },
